@@ -1,0 +1,17 @@
+# Site settings
+title: Anarkrypto Portfolio
+motto: Javascript, Linux, Nano, Docker, IPFS and others.
+author:
+  name: Anarkrypto
+  twitter: anarkrypto
+email: anarkrypto@gmail.com
+baseurl: ""
+url: "https://anarkrypto.github.io"
+github_username:  anarkrypto
+twitter_username: anarkrypto
+twitter:
+  username: anarkrypto
+  card: summary_large_image
+description: Anarkrypto Portfolio
+
+include: [".well-known"]
