@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: anarkrypto.github.io
+Token: cf0ac85f1095751295ec064fcb8c158a1da990a81c793b0f9a76e853ba865324
