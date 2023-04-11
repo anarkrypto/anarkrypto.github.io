@@ -4,14 +4,24 @@ function sleep(ms) {
 
 async function init(){
 
-    // Header and nav fadeIn effects
-    $(".header-container img").css("opacity", "1");
+    // enable avatar fade in transition
+    $(".avatar").css("opacity", "1");
 
     await sleep(1000)
-    $("nav h1, nav p, nav a").css("opacity", "1");
+    $("nav h1, nav p").css("opacity", "1");
+
+
+    let ii = 1
+
+    $('nav a').each(async function () {
+        ii++
+        await sleep(400 * ii)
+        $(this).css("opacity", "1")
+    })
 
     let i = 1
-    $('nav ul.social li').each(async function () {
+
+    $('.social li, .social div').each(async function () {
         i++
         await sleep(400 * i)
         $(this).css("opacity", "1")
