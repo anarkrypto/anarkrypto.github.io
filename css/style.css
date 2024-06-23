@@ -4,9 +4,10 @@
 
 html {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
-*, *:before, *:after {
+*, *::before, *::after {
     box-sizing: inherit;
     padding: 0;
     margin: 0;
